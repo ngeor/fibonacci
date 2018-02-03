@@ -1,0 +1,46 @@
+object MainForm: TMainForm
+  Left = 199
+  Height = 240
+  Top = 75
+  Width = 320
+  Caption = 'Fibonacci'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 32
+    Top = 8
+    Width = 464
+    Caption = 'Enter the number of fibonaccis to calculate:'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object btnCalculate: TButton
+    Left = 88
+    Height = 25
+    Top = 34
+    Width = 75
+    Caption = 'Calculate'
+    OnClick = btnCalculateClick
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 40
+    Top = 32
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 8
+    Height = 160
+    Top = 72
+    Width = 304
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    ScrollWidth = 302
+    TabOrder = 2
+  end
+end
