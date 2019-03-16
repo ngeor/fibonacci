@@ -13,5 +13,6 @@ According to [wikipedia], we use a zero based indexing and the sequence is:
 - Visual Basic 6
 - Lazarus (Delphi)
 - Python
+- Ruby
 
 [wikipedia]: https://en.wikipedia.org/wiki/Fibonacci_number
