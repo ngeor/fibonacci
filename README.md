@@ -19,5 +19,6 @@ According to [wikipedia], we use a zero based indexing and the sequence is:
 - Java
 - C# (dotnet core)
 - VB.net (dotnet core)
+- Go
 
 [wikipedia]: https://en.wikipedia.org/wiki/Fibonacci_number

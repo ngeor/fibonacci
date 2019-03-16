@@ -15,6 +15,6 @@ end_of_line = lf
 [*.{js,tf,wsdl,xml,yml,yaml}]
 indent_size = 2
 
-[*.{cpp,h,sln}]
+[*.{cpp,h,sln,go}]
 indent_size = 4
 indent_style = tab
