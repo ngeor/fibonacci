@@ -1,3 +1,5 @@
 .vscode/
 a.out
 *.class
+bin/
+obj/

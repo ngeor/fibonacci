@@ -17,5 +17,6 @@ According to [wikipedia], we use a zero based indexing and the sequence is:
 - C
 - C++
 - Java
+- C# (dotnet core)
 
 [wikipedia]: https://en.wikipedia.org/wiki/Fibonacci_number
