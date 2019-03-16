@@ -15,5 +15,6 @@ According to [wikipedia], we use a zero based indexing and the sequence is:
 - Python
 - Ruby
 - C
+- C++
 
 [wikipedia]: https://en.wikipedia.org/wiki/Fibonacci_number
