@@ -16,5 +16,6 @@ According to [wikipedia], we use a zero based indexing and the sequence is:
 - Ruby
 - C
 - C++
+- Java
 
 [wikipedia]: https://en.wikipedia.org/wiki/Fibonacci_number
