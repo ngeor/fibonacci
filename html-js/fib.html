@@ -1,0 +1,60 @@
+<html>
+
+<body>
+    <h1>Fibonacci calculator</h1>
+    <p>
+        Enter the fibonacci number to calculate:
+        <input id="number">
+        <button id="calculate">Calculate</button>
+    </p>
+    <table id="results">
+
+    </table>
+    <script>
+        function fib(n) {
+            if (n <= 1) {
+                return n;
+            }
+
+            return fib(n - 1) + fib(n - 2);
+        }
+
+        function appendCell(tr, data) {
+            var td = document.createElement('td');
+            td.appendChild(document.createTextNode(data));
+            tr.appendChild(td);
+        }
+
+        function onClick() {
+            var value = parseInt(document.getElementById('number').value, 10);
+            var table = document.getElementById('results');
+            for (var i = 0; i <= value; i++) {
+                var tr = document.createElement('tr');
+                appendCell(tr, 'F' + i);
+                appendCell(tr, fib(i));
+                table.appendChild(tr);
+            }
+        }
+
+        document.getElementById('calculate').addEventListener('click', onClick);
+    </script>
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+    </style>
+</body>
+
+</html>
