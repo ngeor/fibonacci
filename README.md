@@ -21,5 +21,6 @@ According to [wikipedia], we use a zero based indexing and the sequence is:
 - VB.net (dotnet core)
 - Go
 - JavaScript (in HTML)
+- Rust
 
 [wikipedia]: https://en.wikipedia.org/wiki/Fibonacci_number
